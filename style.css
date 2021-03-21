@@ -1,4 +1,9 @@
 h1 {
-    color: rgb(8, 116, 74);
+    color: rgb(21, 223, 145);
     background-color: black;
+}
+p
+{
+    color: blue;
+    background-color: coral;
 }
