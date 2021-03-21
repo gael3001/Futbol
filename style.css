@@ -1,9 +1,13 @@
 h1 {
-    color: rgb(21, 223, 145);
-    background-color: black;
+    width: 90%;
+    height: 65px;
+    background-color: blue;
+    margin-top: 20px;
+    border: 7px solid pink;
+    border-radius: 10px;
 }
 p
 {
-    color: blue;
+    color: rgb(61, 228, 250);
     background-color: coral;
 }
