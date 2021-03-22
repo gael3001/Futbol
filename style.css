@@ -6,8 +6,13 @@ h1 {
     border: 7px solid pink;
     border-radius: 10px;
 }
+h2 {
+    color: royalblue;
+    font-size: 4em;
+}
 p
 {
     color: rgb(61, 228, 250);
     background-color: coral;
+    font-size: 3em;
 }
