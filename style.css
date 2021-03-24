@@ -1,3 +1,12 @@
+body 
+{
+    background: deepskyblue;
+    color: darkseagreen;
+    font-family: arial;
+    font-size: 16px;
+    margin: 0;
+    padding: 0%;
+}
 h1 {
     width: 90%;
     height: 65px;
@@ -14,5 +23,11 @@ p
 {
     color: rgb(61, 228, 250);
     background-color: coral;
+    font-size: 3em;
+}
+h3
+{
+    color: forestgreen;
+    background: gold;
     font-size: 3em;
 }
