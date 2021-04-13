@@ -8,26 +8,35 @@ body
     padding: 0%;
 }
 h1 {
-    width: 90%;
-    height: 65px;
-    background-color: blue;
     margin-top: 20px;
-    border: 7px solid pink;
-    border-radius: 10px;
+    list-style: none;
+    padding-left: 0;
+    background-color: chartreuse;
 }
 h2 {
     color: royalblue;
     font-size: 4em;
+    margin-top: 15px;
+}
+.parrafo
+{
+    color: rgb(61, 228, 250);
+    background-color: red;
+    font-size: 3em;
+    border-radius: 2px;
 }
 p
 {
-    color: rgb(61, 228, 250);
-    background-color: coral;
-    font-size: 3em;
+    color: seagreen;
+    font-family: cursive;
+    font-size: 15;
+    background-color: seashell;
+    padding: 10px;
 }
 h3
 {
     color: forestgreen;
     background: gold;
     font-size: 3em;
+    padding-top: 10px;
 }
