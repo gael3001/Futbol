@@ -1,9 +1,10 @@
-body 
-{
-    background: deepskyblue;
-    color: darkseagreen;
-    font-family: arial;
-    font-size: 16px;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body  {
+    background: rgb(250, 250, 250); 
     margin: 0;
     padding: 0%;
 }
@@ -12,31 +13,30 @@ h1 {
     list-style: none;
     padding-left: 0;
     background-color: chartreuse;
+    text-align: center;
 }
 h2 {
     color: royalblue;
     font-size: 4em;
-    margin-top: 15px;
+    margin-top: 5px;
+    padding-top: 1px;
+    text-align: center;
+    background-color: chartreuse;
 }
-.parrafo
-{
-    color: rgb(61, 228, 250);
-    background-color: red;
-    font-size: 3em;
+.parrafo {
+    color: blue;
+    background-color: rgb(35, 248, 124);
+    font-size: 35px;
     border-radius: 2px;
 }
-p
-{
-    color: seagreen;
-    font-family: cursive;
-    font-size: 15;
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: seashell;
     padding: 10px;
 }
-h3
-{
+h3 {
     color: forestgreen;
     background: gold;
-    font-size: 3em;
+    font-size: 35px;
     padding-top: 10px;
 }
