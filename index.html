@@ -4,96 +4,90 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel= "stylesheet" href="style.css" title="type="/>
+    <link rel="stylesheet" href="style.css">
     <title>El Estadio</title>
 </head>
 <body>
-    <header>
-        <div class="logo"></div>
+    <header> 
+        <img class="campo" src="./estadio.jpg">
         <h1 class="title">El Estadio.Futbol</h1>
         <h2 class="subtitle">Juega en grande</h2>
-        <div class="nav">
-            <nav>
-                <ul class="menu">
-                    <li class="li">
-                        <a class="boton1" href="#">Boton1</a>
-                        <ul class="submenu-boton1">
-                            <li class="li">
-                                <a class="a" href="#">Opción1</a>
-                            </li>
-                            <li class="li">
-                                <a class="a" href="#">Opción1</a>
-                            </li>
-                            <li class="li">
-                                <a class="a" href="#">Opción1</a>
-                            </li>
-                            <li class="li">
-                                <a class="a" href="#">Opción1</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="li">
-                        <a class="boton2" href="#">Boton2</a>
-                        <ul class="submenu-boton2">
-                            <li class="li">
-                                <a class="a" href="#">Opción2</a>
-                            </li>
-                            <li class="li">
-                                <a class="a" href="#">Opción2</a>
-                            </li>
-                            <li class="li">
-                                <a class="a" href="#">Opción2</a>
-                            </li>
-                            <li class="li">
-                                <a class="a" href="#">Opción2</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="li">
-                        <a class="boton3" href="#">Boton3</a>
-                        <ul class="submenu-boton3">
-                            <li class="li">
-                                <a class="a" href="#">Opción3</a>
-                            </li>
-                            <li class="li">
-                                <a class="a" href="#">Opción3</a>
-                            </li>
-                            <li class="li">
-                                <a class="a" href="#">Opción3</a>
-                            </li>
-                            <li class="li">
-                                <a class="a" href="#">Opción3</a>
-                            </li>
-                        </ul>
-                    </li>
-                    <li class="li">
-                        <a class="boton4" href="#">Boton4</a>
-                        <ul class="submenu-boton4">
-                            <li class="li">
-                                <a class="a" href="#">Opción4</a>
-                            </li>
-                            <li class="li">
-                                <a class="a" href="#">Opción4</a>
-                            </li>
-                            <li class="li">
-                                <a class="a" href="#">Opción4</a>
-                            </li>
-                            <li class="li">
-                                <a class="a" href="#">Opción4</a>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </nav>
+            <span class="openMenu" id="open" onclick="openMenu()">&#9776</span>
+            <span class="closeMenu" id="close" onclick="closeMenu()">&#9746</span>
+        <div class="menu" id="menu">
+        <nav>
+            <ul>
+                <li class="uno"><a href="#" class="uno-1">opción1</a></li>
+                <li class="dos"><a href="#" class="dos-2">opción2</a></li>
+                <li class="tres"><a href="#" class="tres-3">opción3</a></li>
+                <li class="cuatro"><a href="#" class="cuatro-4">opción4</a></li>
+            </ul>
+        </nav>
+    </div>
     </header>
     <main>
-        <section>
-            <p class="parrafo">Preparate para horas divertidas de juegos con nuestros futbolitos, disfruta en compañia de familiares y amigos.</p>
+        <section class="parrafo">
+            <p>Preparate para horas divertidas de juegos con nuestros futbolitos, disfruta en compañia de familiares y amigos.</p>
             <p>Tendras divertidas partidas en pareja o individual</p>
             <p>Con la renta para tus fiestas tendras esas retas con tus invitados, o en la compra tendras horas de divertidas en tu casa justo para esas reuniones.</p>
             <p>Tendras una experiancia increible con nuestros productos</p>
             <p>Revisa nuestros increibles precíos y promociones</p>
         </section> 
     </main>
+    <footer>
+        <div  class="redes">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img class="face" src="./facebook.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img class="insta" src="./instagram-logo-16.png">
+                    </a>
+                </li>
+                <li>
+                    <a href="#"></a>
+                        <img class="you" src="./you.png">
+                </li>
+                <li>
+                    <a href="#">
+                        <img class="tik" src="./tiktok.jpg">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img class="pin" src="./pinterest.jpg">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img class="what" src="./whatsapp.png">
+                    </a>
+                </li>
+            </ul>
+        </div>
+         <div class="texto">
+            <ul>
+                <li>
+                    <a href="">Publicidad</a>
+                </li>
+                <li>
+                    <a href="">Acerca </a>
+                </li>
+                <li>
+                    <a href="">Privacidad</a>
+                </li>
+                <li>
+                    <a href="">Condiciones</a>
+                </li>
+                <li>
+                    <a href="">Referencias</a>
+                </li>
+            </ul>
+        </div>  
+    </footer>-->
+    <script src="./menu.js"></script>
 </body>
 </html>
